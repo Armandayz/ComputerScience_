@@ -1,0 +1,67 @@
+user_string = input('Enter some text: ')
+print(user_string)
+user_string_title_case = user_string.upper()
+print(user_string.upper())
+#2
+user_string = input('Enter how many x u want : ')
+print(user_string)
+user_string_title_case = user_string.count('x')
+print(user_string.count('x'))
+#3
+user_string = input('Enter a word: ')
+print(user_string.find('x'))
+#4
+user_string = input('Enter some text: ')
+print(user_string)
+user_string_replace_case = user_string.replace("c","v")
+print(user_string.replace("c","v"))
+#5
+user_string = input('Enter some text : ')
+user_find = input('Enter a letter to find: ')
+user_replace_letter = input('Enter the word you want to replace: ')
+user_replace_letter_2 =  user_string.replace(user_find , user_replace_letter)
+print(user_replace_letter_2)
+#6
+user_string = input("Enter some text: ")
+user_lower_case_check = user_string.islower()
+if user_string.islower() ==  True:
+    print("All the letters are lowercase")
+else:
+    print("All letters are not lowercase.")
+#7
+user_string = input("Enter some text: ")
+user_lower_case_check = user_string.isupper()
+if user_string.isupper() ==  True:
+    print("All the letters are uppercase")
+else:
+    print("All letters are not uppercase.")
+#8
+user_string = input("Enter some text: ")
+user_alphanumeric_check = user_string.isalnum()
+if user_string.isalnum() == True:
+    print("All characters are alphanumeric.")
+else:
+    print("Not all characters are alphanumeric.")
+#9
+user_string = input("Enter some text: ")
+user_alphabet_check = user_string.isalpha()
+if user_string.isalpha() ==  True:
+    print("All characters are alphabetical")
+else:
+    print("All characters are not alphabetical")
+#10
+user_string = input("Enter some text: ")
+user_digit_check = user_string.isdigit()
+if user_string.isdigit() == True:
+    print("All characters are digits")
+else:
+    print("Not all characters are digits")
+#11
+user_string = input("Enter some text: ")
+user_substring = input("Enter some subtext: ")
+user_index = user_string.index(user_substring)
+print(user_index)
+#12
+user_string = input("Enter some text with an 'a' at the start and end: ")
+user_strip_string = user_string.strip("a")
+print(user_strip_string)
